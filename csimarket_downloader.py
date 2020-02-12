@@ -2,9 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-# Pre-defined class for html table: {'class': "osnovna_tablica_bez_gifa"}
-test_html_file = "../data/aapl_suppliers_csimarket.html"
-
 
 class CSIMarket:
     BASE_URL: str = 'https://csimarket.com/stocks/competition2.php?supply&code='
