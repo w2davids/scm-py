@@ -39,7 +39,7 @@ class CSIMarket:
 
         return pd.DataFrame(
             table_rows[1:],
-            columns=['COMPANY NAME', 'TICKER', 'REVENUE', 'NET INCOME', 'NET MARGIN', 'CASH FLOW', ""]
+            columns=['COMPANY NAME', 'FISCAL YEAR' ,'TICKER', 'REVENUE', 'NET INCOME', 'NET MARGIN', 'CASH FLOW']
         )
 
 
